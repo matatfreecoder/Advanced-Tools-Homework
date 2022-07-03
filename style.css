@@ -84,3 +84,21 @@ p {
 .email-link:hover {
 	text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+	.img-main {
+		display: none;
+	}
+	.row p {
+		text-align: center;
+	}
+
+	.row h2 {
+		text-align: center;
+	}
+	.app-link {
+		display: block;
+		margin: 0 20px;
+		text-align: center;
+	}
+}
